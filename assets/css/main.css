@@ -5,15 +5,17 @@
 :root {
   /* --primary-colors --*/
   --white-ish:#F9F7F7;
-  --light-gray: #DBE2EF;
-  --bluish-gray: #e4e9f1;
-  --blue-light:#669bbc;
-  --blue-medium: #0077b6;
-  --blue-medium-rgb: rgb(0, 119, 182);
-  --blue-dark:#0f4c75;
-  --dark-b: #003566;
-  --gray-black: #415a77;
-  --darker-b:#1B262C;
+  --light-gray: #f0cadf;
+  --bluish-gray: #f0e4f1;
+  --blue-light:#000000;
+  --blue-medium: #000000;
+  --blue-medium-rgb: rgb(2, 2, 2);
+  --blue-dark:rgb(13, 13, 13);
+  --dark-b: #f2eded;
+  --gray-black: #000000;
+  --darker-b:#dd51b5;
+
+
 
   /* https://colorhunt.co/palette/f9f7f7dbe2ef3f72af112d4e */
 }
@@ -80,7 +82,7 @@ a {
 }
 
 a:hover {
-  color: var(--blue-medium) !important;
+  color: #f88ea7 !important;
   /* text-decoration: none !important; */
   /* font-size:1.3rem !important; */
 }
@@ -95,21 +97,21 @@ h1, h2, h3, h4, h5, h6 {
 /* footer */
 
 .footer-lemos {
-  background-color: #0f4c75;
+  background-color: #000000;
   font-size: smaller;
 }
 
-.footer-lemos-nifme {
-    background-color: #1B262C;
-    font-size: smaller;
-  }
+/* .footer-lemos-nifme { */
+    /* background-color: #1B262C; */
+    /* font-size: smaller; */
+  /* } */
 
 .footer-icons{
-    color: var(--blue-light);   
+    color: var(--white-ish);   
 }
 
 .footer-icons:hover{
-    color: var(--blue-medium);   
+    color: #f0cadf;   
 }
 
 
